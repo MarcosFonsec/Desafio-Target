@@ -1,0 +1,11 @@
+INDICE = 13
+SOMA = 0
+K = 0
+
+while K < INDICE:
+    K += 1
+    SOMA = SOMA + K
+
+    print(SOMA)
+
+print(f"O valor da variável SOMA é {SOMA}")
